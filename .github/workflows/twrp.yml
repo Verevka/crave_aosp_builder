@@ -157,7 +157,7 @@ jobs:
       REPO_INIT: ${{ needs.prepare.outputs.REPO_INIT }}
 
   build:
-    name: Build using foss.crave.io
+    name: Build using devspace.crave.io
     needs: test
       # Change this to self-hosted after setting up devspace as github actions runner
     runs-on: ubuntu-latest
